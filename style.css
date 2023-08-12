@@ -35,7 +35,7 @@ h1 span {
 }
 
 .about p {
-  opacity: 0.5;
+  opacity: 0.6;
   padding-right: 3.5rem;
 }
 
@@ -49,13 +49,6 @@ span.numbers {
   font-size: 20px;
   font-weight: 800;
 }
-/* img {
-  display: block;
-  position: relative;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-} */
 
 .header {
   width: 50%;
@@ -65,13 +58,6 @@ span.numbers {
   background-size: contain;
 }
 
-/* img::after {
-  content: " ";
-  position: absolute;
-  width: 100%;
-  height: 100%;background-color: hsl(277, 64%, 61%);
-  background-blend-mode: multiply;
-} */
 @media screen and (max-width: 700px) {
   .container {
     flex-direction: column-reverse;
@@ -87,6 +73,14 @@ span.numbers {
   }
   .header {
     width: 100%;
+
+    min-height: 220px;
+    background: url(images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
   }
 
   .analytics {
